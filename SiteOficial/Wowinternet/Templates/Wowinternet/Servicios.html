@@ -1,7 +1,7 @@
 {% extends 'Wowinternet/Base.html' %}
 {% load static %}
-<body>
-    {% block botonesC %}
+{% block title %}Servicios y Promociones{% endblock %}
+{% block botonesC %}
     <div class="collapse navbar-collapse" id="caviarNav">
         <ul class="navbar-nav ml-auto" id="caviarMenu">
             <li class="nav-item">
@@ -18,9 +18,9 @@
             </li>
         </ul>
     </div>
-    {% endblock %}
+{% endblock %}
 
-    {% block breadcumb %}
+{% block breadcumb %}
     <!-- ***** Breadcumb Area Start ***** -->
     <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-2.jpg)">
         <div class="container h-100">
@@ -35,9 +35,9 @@
         </div>
     </div>
     <!-- ***** Breadcumb Area End ***** -->
-    {% endblock %}
+{% endblock %}
 
-    {% block Contenido %}
+{% block Contenido %}
     <!-- ***** Menu Area Start ***** -->
     <div class="caviar-food-menu section-padding-150 clearfix">
         <div class="container">
@@ -300,8 +300,8 @@
         </div>
     </div>
     <!-- ***** Menu Area End ***** -->
-    {% endblock %}
-    {% block Secciones %}
+{% endblock %}
+{% block Secciones %}
     <!-- ***** Special Menu Area Start ***** -->
     <section class="caviar-dish-menu clearfix" id="menu">
         <div class="container">
@@ -358,5 +358,4 @@
             </div>
         </div>
     </section>
-    {% endblock %}
-</body>
+{% endblock %}
