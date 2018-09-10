@@ -22,7 +22,7 @@
 
 {% block breadcumb %}
     <!-- ***** Breadcumb Area Start ***** -->
-    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-2.jpg)">
+    <div class="breadcumb-area bg-img bg-overlay" style="background-image: url('{% static "Wowinternet/Img/bg-img/hero-2.jpg"%}')">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -266,7 +266,7 @@
                             <div class="single_menu_item lunch wow fadeInUp">
                                 <div class="d-sm-flex align-items-center">
                                     <div class="dish-thumb">
-                                        <img src="{% static 'img/menu-img/dish-1.png' %}" alt="">
+                                        <img src="{% static 'Wowinternet/img/menu-img/dish-1.png' %}" alt="">
                                     </div>
                                     <div class="dish-description">
                                         <h3>Lorem Ipsum Dolor Sit Amet</h3>
@@ -281,7 +281,7 @@
                             <div class="single_menu_item dinner wow fadeInUp">
                                 <div class="d-sm-flex align-items-center">
                                     <div class="dish-thumb">
-                                        <img src="{% static 'img/menu-img/dish-2.png' %}" alt="">
+                                        <img src="{% static 'Wowinternet/img/menu-img/dish-2.png' %}" alt="">
                                     </div>
                                     <div class="dish-description">
                                         <h3>Lorem Ipsum Dolor Sit Amet</h3>
@@ -302,13 +302,29 @@
     <!-- ***** Menu Area End ***** -->
 {% endblock %}
 {% block Secciones %}
-    <!-- ***** Special Menu Area Start ***** -->
+ <!-- ***** Special Menu Area Start ***** -->
+
     <section class="caviar-dish-menu clearfix" id="menu">
         <div class="container">
             <div class="row">
                 <div class="col-12 menu-heading">
                     <div class="section-heading text-center">
                         <h2>Promociones</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="socialShare">
+                <div class="socialBox pointer">
+                    <span class="fa fa-share-alt"></span>
+                    <div id="socialGallery">
+                        <div class="socialToolBox">
+                            <a class="facebook" href=""><i class="fa fa-facebook"></i></a>
+                            <a class="google" href=""><i class="fa fa-google-plus"></i></a>
+                            <a class="instagram" href=""><i class="fa fa-instagram"></i></a>
+                            <a class="tumblr" href=""><i class="fa fa-tumblr"></i></a>
+                            <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
+                            <a class="youtube" href=""><i class="fa fa-youtube"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,21 +354,6 @@
                             <h6 class="dish-name">Lorem Ipsum Dolor Sit Amet</h6>
                             <p class="dish-price">$</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="socialShare">
-            <div class="socialBox pointer">
-                <span class="fa fa-share-alt"></span>
-                <div id="socialGallery">
-                    <div class="socialToolBox">
-                        <a class="facebook" href=""><i class="fa fa-facebook"></i></a>
-                        <a class="google" href=""><i class="fa fa-google-plus"></i></a>
-                        <a class="instagram" href=""><i class="fa fa-instagram"></i></a>
-                        <a class="tumblr" href=""><i class="fa fa-tumblr"></i></a>
-                        <a class="twitter" href=""><i class="fa fa-twitter"></i></a>
-                        <a class="youtube" href=""><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
