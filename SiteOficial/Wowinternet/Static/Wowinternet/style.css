@@ -224,7 +224,7 @@ li {
 .section-heading {
     position: relative;
     z-index: 1;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .section-heading h2 {
@@ -1317,8 +1317,9 @@ blockquote img {
 
 /*Esto Lo Agregue yo ---------------------------------------------------------------------------------------------*/
 #socialShare {
-  width: 50%;
+  width: 100%;
   margin-top: 15px;
+  text-align:right;
 }
 
 #socialShare a,
@@ -1330,11 +1331,14 @@ blockquote img {
   font-size: 20px;
   padding: 5px;
   background-color: transparent;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   line-height: 40px;
   text-align: center;
   border-radius: 50%;
+  z-index:2;
+  margin-right:65px;
+  margin-bottom:10px;
 }
 
 #socialShare  a {
@@ -1346,11 +1350,11 @@ blockquote img {
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.15);
   display: block;
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   padding: 8px;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 25px;
   text-align: center;
   border-radius: 50%;
   -webkit-transform: scale(1);
