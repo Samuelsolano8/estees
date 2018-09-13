@@ -274,6 +274,13 @@
     }
 }
 @media (min-width: 320px) and (max-width: 509px) {
+    .menu-heading > a{
+        top: -18px;
+        line-height:75px;
+        font-size:9px;
+        min-width:40px;
+    }
+
     .about-us-content{
         margin-right:0px;
         margin-left:0px;
@@ -327,7 +334,6 @@
     /* Reducir el tamaño del header poquito*/
     .header_area{
     margin-top:-10px;
-
     }
     /* Modificacion mia adapte para que el carrusel se vea para celular y que se vea toda la imagen (Reduje los componentes)*/
     .caviar-hero-area .owl-next {
@@ -337,15 +343,19 @@
         height:25px;
         line-height:23px;
     }
+
     .welcome-social-info {
         right: 15px
     }
+
     .hero-content p {
         margin-bottom: 30px
     }
+
     .caviar-about-us-area {
         padding: 70px 0
     }
+
     .caviar-testimonials-area,
     .caviar-dish-menu,
     .caviar-awards-area {
@@ -365,7 +375,7 @@
         text-align: left !important
     }
     .section-heading h2 {
-        font-size: 30px
+        font-size: 25px
     }
     .caviar-single-dish {
         padding: 20px;
